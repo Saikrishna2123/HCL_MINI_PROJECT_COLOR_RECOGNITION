@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Recognition</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <script src="./index.js"></script>
+    <h1>Color Recognizer</h1>
+    <form action="#">
+        <label>Upload Image </label>
+      <input type="file" id="imgfile" />
+      <input type="button" id="btnLoad" value="Load" onclick="main();" />
+    </form>
+    <canvas id="canvas"></canvas>
+    <div id="palette"></div>
+    <hr />
+    <div id="complementary"></div>
+
+  </body>
+</html>

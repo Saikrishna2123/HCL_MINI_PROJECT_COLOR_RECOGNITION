@@ -1,0 +1,133 @@
+/* Reset some default browser styles */
+body, h1, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background gradient for the whole page */
+body {
+  background: linear-gradient(90deg, #4395f9 0%, #ff6969 100%);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the header */
+h1 {
+  background: linear-gradient(45deg, #f06 30%, #09f 90%); /* Gradient background */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Transparent text */
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form container */
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the label and file input */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff; /* White text */
+}
+
+#imgfile {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #09f; /* Blue border */
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  color: #333; /* Dark text */
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+}
+
+/* Style the Load button */
+#btnLoad {
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #f06 30%, #09f 90%); /* Gradient background */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#btnLoad:hover {
+  background: linear-gradient(45deg, #f06 30%, #09f 90%); /* Gradient background on hover */
+}
+
+/* Style the canvas */
+#canvas {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #09f; /* Blue border */
+  margin-top: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+/* Style the color palette container */
+#palette,
+#complementary {
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+#palette div,
+#complementary div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+/* Style the color swatches in the palette */
+.color-swatch {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border: 2px solid #fff; /* White border */
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  background: linear-gradient(45deg, #f06 30%, #09f 90%); /* Gradient background */
+}
+
+.color-swatch:hover {
+  transform: scale(1.1); /* Enlarge on hover */
+}
+
+/* Style the hr element */
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 30px auto;
+  width: 80%;
+}
+
+/* Style the complementary color container */
+
+
+
+
+
